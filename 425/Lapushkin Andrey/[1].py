@@ -29,8 +29,8 @@ print()
 print(3)
 
 total = 0
-for i in dict.keys(): #Сумма всех знаков в названии предметов(обычный цикл for )
-total += len(i)
+ for i in dict.keys(): #Сумма всех знаков в названии предметов(обычный цикл for )
+  total += len(i)
 print("Сумма всех знаков в названии предметов =" , total)
 print()
 
